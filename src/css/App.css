@@ -1,0 +1,33 @@
+.homepage {
+  /* background: url('/images/bg1.jpg') no-repeat !important; */
+  background-color: #ffdc00!important;
+  background-position: center center;
+  background-size:cover!important;
+}
+
+.what-we-do {
+  background-color: #000!important;
+  height: 110vh;
+  color: #fff;
+}
+
+.homepage-tint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  z-index: 0;
+  opacity: .2;
+}
+
+#page-title h1, #page-title p {
+  z-index: 999;
+}
+
+@keyframes scrollAnimation {
+  70% {
+    height: 105px;
+  }
+}
